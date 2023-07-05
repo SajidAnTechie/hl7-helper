@@ -1,0 +1,24 @@
+//Note: XPN, TS, XTN,CE, CX, SAD, XAD --> data types
+// refer: https://hl7-definition.caristix.com/v2/HL7v2.5.1/DataTypes
+module.exports = {
+  PATIENT_NAME: "PID.5",
+  PATIENT_FIRST_NAME: "XPN.2",
+  PATIENT_LAST_NAME: "XPN.1",
+  DATE_OF_BIRTH: "PID.7",
+  DATE_OF_BIRTH_TIME: "TS.1",
+  PHONE_NUMBER: "PID.13",
+  TELEPHONE_NUMBER: "XTN.1",
+  EMAIL: "XTN.4",
+  MARITAL_STATUS: "PID.16",
+  MARITAL_STATUS_IDENTIFIER: "CE.1",
+  SSN_NUMBER: "PID.19",
+  PATIENT_ID: "PID.3",
+  PATIENT_ID_NUMBER: "CX.1",
+  PATIENT_ID_MRN_NUMBER: "CX.5",
+  PATIENT_ADDRESS: "PID.11",
+  STREET_ADDRESS: "XAD.1",
+  MAILING_ADDRESS: "SAD.1",
+  CITY: "XAD.3",
+  STATE: "XAD.4",
+  SEX: "PID.8",
+};
